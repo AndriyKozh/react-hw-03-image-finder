@@ -38,7 +38,7 @@ class App extends Component {
   };
 
   render() {
-    const { images, isLoad, showModal } = this.state;
+    const { images, isLoad } = this.state;
 
     const spinnerStyles = {
       margin: '0 auto',
