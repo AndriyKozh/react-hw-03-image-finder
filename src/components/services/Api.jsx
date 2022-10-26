@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import axios from "axios";
 
 axios.defaults.baseURL = 'https://pixabay.com/api/';
-const API_KEY = '30453708-4bc301c6df3fbfbb2df0be580'
+const API_KEY = '29524471-b67b2b2d9f34edfb071a81463'
 
 
 export async function createRequest(search, page = 1) {
